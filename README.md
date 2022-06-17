@@ -1,4 +1,5 @@
 # ffmpeg_sample
+ffmpegで速度を変更して，動/画/保/存するアプリのサンプルを作った
 
 A new Flutter project.
 

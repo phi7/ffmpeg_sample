@@ -18,12 +18,11 @@ class FfmpegPage extends StatelessWidget {
               return Column(
                 mainAxisAlignment: MainAxisAlignment.center,
                 children: <Widget>[
-                  ElevatedButton(onPressed: (){
-
-                  }, child: const Text("動画保存")),
+                  // ElevatedButton(onPressed: (){
+                  //
+                  // }, child: const Text("動画保存")),
                   ElevatedButton(onPressed: (){
                     model.videoFromGallery();
-
                   }, child: const Text("動画選択&速度変更"))
                 ],
               );
